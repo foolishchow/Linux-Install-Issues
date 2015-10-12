@@ -3,30 +3,37 @@ Linux redhat安装Nginx
 
 ####nginx 简介
 
->
-         Nginx是一款非常优秀的Web服务器，它是由俄罗斯人Igor Sysoev（伊戈尔-塞索耶夫）写的，
-      虽然它的应用还没有老牌Web服务器Apache广泛，但相比Apache，它有着自己的一些优势，
-      比如很好的高并发访问支持内存却占用少，配置简单，稳定性高，支持热部署等等。
-         Nginx 已经在俄罗斯的最大的门户网站Rambler Media上运行了好几年的时间，
-      在国内也有很多一些知名网站也采用Nginx作为Web服务器或反向代理服务器， 比如新浪、网易、空中网等等。
-         在这里，我记录一下安装Nginx的过程，因为Nginx需要其他第三方库的支持，
-      比如rewrite模块需要pcre库，ssl需要openssl库，所以也一并介绍了一下其他库，主要是pcre和openssl库的安装说明。
+-- Nginx是一款非常优秀的Web服务器，它是由俄罗斯人Igor Sysoev（伊戈尔-塞索耶夫）写的，虽然它的应用还没有老牌Web服务器Apache广泛，但相比Apache，它有着自己的一些优势，比如很好的高并发访问支持内存却占用少，配置简单，稳定性高，支持热部署等等。
+Nginx 已经在俄罗斯的最大的门户网站Rambler Media上运行了好几年的时间，在国内也有很多一些知名网站也采用Nginx作为Web服务器或反向代理服务器，比如新浪、网易、空中网等等。
+在这里，我记录一下安装Nginx的过程，因为Nginx需要其他第三方库的支持，比如rewrite模块需要pcre库，ssl需要openssl库，所以也一并介绍了一下其他库，主要是pcre和openssl库的安装说明。
  
+> 1.PCRE库的安装：
 
-1、  PCRE库的安装：
-官网：http://www.pcre.org/
-下载页面：ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/
-选择最新版本下载：
-ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.10.tar.gz
-解压：
-tar –zxvf pcre-8.10.tar.gz，解压目录为：pcre-8.10
-然后进入到 cd pcre-8.10，进行配置、编译、安装
+[PCRE官网][pcrehome]
+[下载页面][pcredownload]
+[测试版本][pcrehere]
+
+1.解压：
+```sh
+tar –zxvf pcre-8.10.tar.gz
+```
+解压目录为：pcre-8.10
+2.进入到解压目录
+```sh
+cd pcre-8.10
+```
+配置、编译、安装
 配置
 ./configure或./config
 编译
 make
 安装
 make install
+
+[pcrehome] : http://www.pcre.org/ 'PCRE官网'
+[pcredownload] : ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ '下载页面'
+[pcrehere] : ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.10.tar.gz '选择最新版本下载'
+
 2、  OpenSSL库的安装
 官网：http://www.openssl.org
 下载页面：http://www.openssl.org/source/
