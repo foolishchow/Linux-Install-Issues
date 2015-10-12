@@ -171,24 +171,3 @@ mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRA
 service iptables restart
 ```
 一切配置完毕，你就可以访问MySQL了。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
