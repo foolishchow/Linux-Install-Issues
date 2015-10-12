@@ -13,12 +13,11 @@ Nginx 已经在俄罗斯的最大的门户网站Rambler Media上运行了好几�
 [下载页面][pcredownload]
 [测试版本][pcrehere]
 
-1.解压： `tar –zxvf pcre-8.10.tar.gz` 解压目录为：pcre-8.10
-
-2.进入到解压目录 `cd pcre-8.10` 
-3.配置 `./configure` 或 `./config`
-4.编译 `make`
-5.安装 `make install`
+ 1. 解压： `tar –zxvf pcre-8.10.tar.gz` 解压目录为：pcre-8.10
+ 2. 进入到解压目录 `cd pcre-8.10` 
+ 3. 配置 `./configure` 或 `./config`
+ 4. 编译 `make`
+ 5. 安装 `make install`
 
 [pcrehome]: http://www.pcre.org/ "PCRE官网"
 [pcredownload]: ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ "下载页面"
