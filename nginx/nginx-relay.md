@@ -20,9 +20,9 @@ Nginx 已经在俄罗斯的最大的门户网站Rambler Media上运行了好几�
 4.编译 `make`
 5.安装 `make install`
 
-[pcrehome] : http://www.pcre.org/ 'PCRE官网'
-[pcredownload] : ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ '下载页面'
-[pcrehere] : ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.10.tar.gz '选择最新版本下载'
+[pcrehome]: http://www.pcre.org/ "PCRE官网"
+[pcredownload]: ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ "下载页面"
+[pcrehere]: ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.10.tar.gz "选择最新版本下载"
 
 2、  OpenSSL库的安装
 官网：http://www.openssl.org
@@ -81,3 +81,6 @@ Java代码  收藏代码
    2. ./configure --prefix=/data/nginx --with-http_realip_module --with-http_sub_module --with-http_flv_module --with-http_dav_module --with-http_gzip_static_module --with-http_stub_status_module --with-http_addition_module --with-pcre=/data/download/pcre-8.2。0 --with-openssl=/data/download/openssl-1.0.0a --with-http_ssl_module --with-zlib=/data/download/zlib-1.2.5
    3. make
    4. make install
+
+
+
