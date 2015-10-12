@@ -1,6 +1,8 @@
 nginx 参考list
 ---------------------------------------------
 
+# [redhat安装Nginx][nginx-redhat]
+
 ##Linux redhat安装Nginx
 http://minjiechenjava.iteye.com/blog/2040555
 
@@ -23,3 +25,8 @@ http://daliang1215.iteye.com/blog/543248
 permission defined
 
 问题：配置实用的user， 如root 或者其他
+
+
+
+
+[nginx-redhat]: ./nginx-relay.md "redhat安装Nginx"
