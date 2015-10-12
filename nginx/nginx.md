@@ -1,7 +1,7 @@
 nginx 参考list
 ---------------------------------------------
 
-# [redhat安装Nginx][nginx-redhat]
+## [redhat安装Nginx][nginx-redhat]
 
 ##Linux redhat安装Nginx
 http://minjiechenjava.iteye.com/blog/2040555
